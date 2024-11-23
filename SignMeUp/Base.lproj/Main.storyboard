@@ -161,7 +161,7 @@
         <!--Dictionary-->
         <scene sceneID="wK6-Vv-YNM">
             <objects>
-                <viewController id="AVu-fa-Hs4" sceneMemberID="viewController">
+                <viewController id="AVu-fa-Hs4" customClass="DictViewController" customModule="SignMeUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gcl-XU-QMN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,6 +206,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Alphabets"/>
                                 <connections>
+                                    <action selector="alphabetButtonTapped:" destination="AVu-fa-Hs4" eventType="touchUpInside" id="xgd-Bx-tLp"/>
                                     <segue destination="6Ms-tJ-HKD" kind="show" identifier="showAlphabetTable" id="raz-QZ-4I1"/>
                                 </connections>
                             </button>
