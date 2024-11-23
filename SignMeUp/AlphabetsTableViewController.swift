@@ -8,7 +8,38 @@
 import UIKit
 
 class AlphabetsTableViewController: UITableViewController {
-
+    
+    
+    
+    var alphabets: [Alphabet] = [
+        Alphabet(name: "A", dailyUse: "Apple"),
+        Alphabet(name: "B", dailyUse: "Ball"),
+        Alphabet(name: "C", dailyUse: "Cat"),
+        Alphabet(name: "D", dailyUse: "Dog"),
+        Alphabet(name: "E", dailyUse: "Elephant"),
+        Alphabet(name: "F", dailyUse: "Fan"),
+        Alphabet(name: "G", dailyUse: "Glass"),
+        Alphabet(name: "H", dailyUse: "Hat"),
+        Alphabet(name: "I", dailyUse: "Ice"),
+        Alphabet(name: "J", dailyUse: "Jug"),
+        Alphabet(name: "K", dailyUse: "Kite"),
+        Alphabet(name: "L", dailyUse: "Lamp"),
+        Alphabet(name: "M", dailyUse: "Milk"),
+        Alphabet(name: "N", dailyUse: "Notebook"),
+        Alphabet(name: "O", dailyUse: "Orange"),
+        Alphabet(name: "P", dailyUse: "Pen"),
+        Alphabet(name: "Q", dailyUse: "Queen"),
+        Alphabet(name: "R", dailyUse: "Rain"),
+        Alphabet(name: "S", dailyUse: "Sun"),
+        Alphabet(name: "T", dailyUse: "Table"),
+        Alphabet(name: "U", dailyUse: "Umbrella"),
+        Alphabet(name: "V", dailyUse: "Van"),
+        Alphabet(name: "W", dailyUse: "Water"),
+        Alphabet(name: "X", dailyUse: "Xylophone"),
+        Alphabet(name: "Y", dailyUse: "Yarn"),
+        Alphabet(name: "Z", dailyUse: "Zoo")
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
