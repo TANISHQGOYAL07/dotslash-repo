@@ -205,6 +205,9 @@
                                 <color key="tintColor" red="0.91372549530000002" green="0.42352938649999999" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Alphabets"/>
+                                <connections>
+                                    <segue destination="6Ms-tJ-HKD" kind="show" identifier="showAlphabetTable" id="raz-QZ-4I1"/>
+                                </connections>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="210-Jr-Bhb">
                                 <rect key="frame" x="26" y="169" width="351" height="44"/>
@@ -230,17 +233,20 @@
             <objects>
                 <tableViewController id="K5T-8p-juz" customClass="AlphabetsTableViewController" customModule="SignMeUp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="NdG-ER-YrU">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hsf-wT-fbM">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="alphabetCell" id="Hsf-wT-fbM">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hsf-wT-fbM" id="f80-NE-rfl">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="1RO-uV-KVN" kind="show" id="zJf-A5-0uw"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -253,6 +259,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tCK-yY-9Bd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6532.06106870229" y="-980.28169014084517"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AjC-qx-pkS">
+            <objects>
+                <viewController id="1RO-uV-KVN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pSO-Wq-uCC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="LBh-De-6U2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MK2-Ru-cXZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QKx-jM-E9y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7375" y="-980"/>
         </scene>
         <!--Home-->
         <scene sceneID="Uxx-VI-d8i">
@@ -337,8 +359,9 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Ms-tJ-HKD" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="biI-eo-YdD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XcM-mv-NnW">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
