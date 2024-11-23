@@ -80,7 +80,9 @@ class AlphabetsTableViewController: UITableViewController {
         
         
         // Optionally, you can set a secondary text if needed
-        content.secondaryText = alphabet.dailyUse
+        content.secondaryText = "Commonly Used Words : " + alphabet.dailyUse
+        
+        content.textProperties.color = getRandomColor()
         
         // Apply the content configuration to the cell
         cell.contentConfiguration = content
@@ -91,6 +93,14 @@ class AlphabetsTableViewController: UITableViewController {
     @IBAction func backButtonTapped(_ sender: UIBarButtonItem) {
         
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    func getRandomColor() -> UIColor {
+        // Array of possible colors
+        let colors: [UIColor] = [.orange, .green]
+        
+        // Return a random color from the array
+        return colors.randomElement() ?? .black
     }
     
     /*
