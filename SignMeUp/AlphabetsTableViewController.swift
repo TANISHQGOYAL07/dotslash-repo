@@ -31,7 +31,7 @@ class AlphabetsTableViewController: UITableViewController {
         Alphabet(name: "Q - Qq", dailyUse: "Queen, Quit"),
         Alphabet(name: "R - Rr", dailyUse: "Rain , Read"),
         Alphabet(name: "S - Ss", dailyUse: "Sun, Sleep"),
-        Alphabet(name: "T - Tt", dailyUse: "Table, Talk"),
+        Alphabet(name: "T - Tt", dailyUse: "Time, Table"),
         Alphabet(name: "U - Uu", dailyUse: "Umbrella, Unite"),
         Alphabet(name: "V - Vv", dailyUse: "Van, Visualize"),
         Alphabet(name: "W - Ww", dailyUse: "Water, Write"),
