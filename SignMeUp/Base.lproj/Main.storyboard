@@ -420,6 +420,16 @@
                     <view key="view" contentMode="scaleToFill" id="wed-Qc-O3J">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2024-11-24 at 4.33.14 AM" highlightedImage="Screenshot 2024-11-24 at 4.33.14 AM" translatesAutoresizingMaskIntoConstraints="NO" id="YzC-gG-bmP">
+                                <rect key="frame" x="-96" y="49" width="584" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2024-11-24 at 4.40.33 AM" translatesAutoresizingMaskIntoConstraints="NO" id="BXV-UU-6jp">
+                                <rect key="frame" x="-72" y="190" width="489" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="LjZ-HQ-5Jp"/>
                         <color key="backgroundColor" red="1" green="0.9882352941176471" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -477,6 +487,8 @@
         <image name="Screenshot 2024-11-23 at 11.31.12 AM" width="716" height="462"/>
         <image name="Screenshot 2024-11-23 at 5.42.01 PM" width="584" height="244"/>
         <image name="Screenshot 2024-11-23 at 7.58.37 PM" width="292" height="252"/>
+        <image name="Screenshot 2024-11-24 at 4.33.14 AM" width="646" height="308"/>
+        <image name="Screenshot 2024-11-24 at 4.40.33 AM" width="644" height="544"/>
         <image name="U (1)" width="128" height="128"/>
         <image name="WhatsApp Image 2024-11-23 at 17.53.00" width="1031" height="938"/>
         <image name="WhatsApp Image 2024-11-23 at 19.52.06" width="425" height="617"/>
