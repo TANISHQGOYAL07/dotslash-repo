@@ -198,14 +198,37 @@
                     <view key="view" contentMode="scaleToFill" id="qio-dZ-uE3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2024-11-24 at 4.53.08 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Tue-uE-4s8">
+                                <rect key="frame" x="0.0" y="-13" width="393" height="298"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCn-cQ-K61">
+                                <rect key="frame" x="37" y="280" width="157" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91372549530000002" green="0.42352938649999999" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Edit Profile"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gearshape.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jmO-Gf-E1R">
+                                <rect key="frame" x="307" y="277.33333333333326" width="41" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91372549530000002" green="0.42352938649999999" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="R9D-g6-8L0">
+                                <rect key="frame" x="238" y="278" width="41" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91372549530000002" green="0.42352938649999999" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="CHW-33-H3F"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.98823529409999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle.fill" catalog="system" id="zXT-Ae-2c0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gb9-bg-k6z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1695" y="781"/>
+            <point key="canvasLocation" x="1693.8931297709923" y="780.98591549295782"/>
         </scene>
         <!--Leaderboard-->
         <scene sceneID="rM1-qs-AJM">
@@ -429,6 +452,10 @@
                                 <rect key="frame" x="-72" y="190" width="489" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2024-11-24 at 4.49.38 AM" translatesAutoresizingMaskIntoConstraints="NO" id="zWy-8w-o7p">
+                                <rect key="frame" x="-16" y="462" width="409" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LjZ-HQ-5Jp"/>
                         <color key="backgroundColor" red="1" green="0.9882352941176471" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -489,12 +516,16 @@
         <image name="Screenshot 2024-11-23 at 7.58.37 PM" width="292" height="252"/>
         <image name="Screenshot 2024-11-24 at 4.33.14 AM" width="646" height="308"/>
         <image name="Screenshot 2024-11-24 at 4.40.33 AM" width="644" height="544"/>
+        <image name="Screenshot 2024-11-24 at 4.49.38 AM" width="638" height="486"/>
+        <image name="Screenshot 2024-11-24 at 4.53.08 AM" width="642" height="442"/>
         <image name="U (1)" width="128" height="128"/>
         <image name="WhatsApp Image 2024-11-23 at 17.53.00" width="1031" height="938"/>
         <image name="WhatsApp Image 2024-11-23 at 19.52.06" width="425" height="617"/>
         <image name="book.pages.fill" catalog="system" width="107" height="128"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
         <image name="hand.raised.palm.facing.fill" catalog="system" width="128" height="128"/>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
         <image name="trophy.fill" catalog="system" width="128" height="128"/>
