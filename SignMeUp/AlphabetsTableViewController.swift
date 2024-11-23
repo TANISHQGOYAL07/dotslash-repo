@@ -12,32 +12,32 @@ class AlphabetsTableViewController: UITableViewController {
     
     
     var alphabets: [Alphabet] = [
-        Alphabet(name: "A", dailyUse: "Apple"),
-        Alphabet(name: "B", dailyUse: "Ball"),
-        Alphabet(name: "C", dailyUse: "Cat"),
-        Alphabet(name: "D", dailyUse: "Dog"),
-        Alphabet(name: "E", dailyUse: "Elephant"),
-        Alphabet(name: "F", dailyUse: "Fan"),
-        Alphabet(name: "G", dailyUse: "Glass"),
-        Alphabet(name: "H", dailyUse: "Hat"),
-        Alphabet(name: "I", dailyUse: "Ice"),
-        Alphabet(name: "J", dailyUse: "Jug"),
-        Alphabet(name: "K", dailyUse: "Kite"),
-        Alphabet(name: "L", dailyUse: "Lamp"),
-        Alphabet(name: "M", dailyUse: "Milk"),
-        Alphabet(name: "N", dailyUse: "Notebook"),
-        Alphabet(name: "O", dailyUse: "Orange"),
-        Alphabet(name: "P", dailyUse: "Pen"),
-        Alphabet(name: "Q", dailyUse: "Queen"),
-        Alphabet(name: "R", dailyUse: "Rain"),
-        Alphabet(name: "S", dailyUse: "Sun"),
-        Alphabet(name: "T", dailyUse: "Table"),
-        Alphabet(name: "U", dailyUse: "Umbrella"),
-        Alphabet(name: "V", dailyUse: "Van"),
-        Alphabet(name: "W", dailyUse: "Water"),
-        Alphabet(name: "X", dailyUse: "Xylophone"),
-        Alphabet(name: "Y", dailyUse: "Yarn"),
-        Alphabet(name: "Z", dailyUse: "Zoo")
+        Alphabet(name: "A - Aa", dailyUse: "Apple , Awaken "),
+        Alphabet(name: "B - Bb", dailyUse: "Ball , Breathe"),
+        Alphabet(name: "C - Cc", dailyUse: "Cat , Create "),
+        Alphabet(name: "D - Dd", dailyUse: "Dog , Drink"),
+        Alphabet(name: "E - Ee", dailyUse: "Elephant , Exercise"),
+        Alphabet(name: "F - Ff", dailyUse: "Fan , Focus"),
+        Alphabet(name: "G - Gg", dailyUse: "Glass , Grind"),
+        Alphabet(name: "H - Hh", dailyUse: "Hat , Hydrate"),
+        Alphabet(name: "I - Ii", dailyUse: "Ice Interact"),
+        Alphabet(name: "J - Jj", dailyUse: "Jug , Journal"),
+        Alphabet(name: "K - Kk", dailyUse: "Kite , Keep"),
+        Alphabet(name: "L - Ll", dailyUse: "Learn , Laugh"),
+        Alphabet(name: "M - Mm", dailyUse: "Milk , Mediate"),
+        Alphabet(name: "N - Nn", dailyUse: "Notebook , Nourish"),
+        Alphabet(name: "O - On", dailyUse: "Orange , Observe"),
+        Alphabet(name: "P - Pp", dailyUse: "Pen , Plan"),
+        Alphabet(name: "Q - Qq", dailyUse: "Queen, Quit"),
+        Alphabet(name: "R - Rr", dailyUse: "Rain , Read"),
+        Alphabet(name: "S - Ss", dailyUse: "Sun, Sleep"),
+        Alphabet(name: "T - Tt", dailyUse: "Table, Talk"),
+        Alphabet(name: "U - Uu", dailyUse: "Umbrella, Unite"),
+        Alphabet(name: "V - Vv", dailyUse: "Van, Visualize"),
+        Alphabet(name: "W - Ww", dailyUse: "Water, Write"),
+        Alphabet(name: "X - Xx", dailyUse: "Xylophone, Xray"),
+        Alphabet(name: "Y - Yy", dailyUse: "Yarn , Yield"),
+        Alphabet(name: "Z - Zz", dailyUse: "Zoo , Zip")
     ]
     
     override func viewDidLoad() {
@@ -78,6 +78,7 @@ class AlphabetsTableViewController: UITableViewController {
         // Configure the content with the Alphabet's name
         content.text = alphabet.name
         
+        
         // Optionally, you can set a secondary text if needed
         content.secondaryText = alphabet.dailyUse
         
@@ -87,7 +88,11 @@ class AlphabetsTableViewController: UITableViewController {
         return cell
     }
     
-
+    @IBAction func backButtonTapped(_ sender: UIBarButtonItem) {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

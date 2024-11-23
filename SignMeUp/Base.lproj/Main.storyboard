@@ -219,6 +219,12 @@
                                     <outlet property="delegate" destination="AVu-fa-Hs4" id="Yel-zH-jDa"/>
                                 </connections>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dG-Ki-FwR">
+                                <rect key="frame" x="285" y="20" width="110" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Bookmarks"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ra0-OJ-GS5"/>
                         <color key="backgroundColor" red="1" green="0.98823529480000005" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -255,7 +261,13 @@
                             <outlet property="delegate" destination="K5T-8p-juz" id="UEp-G0-JGo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Alphabets" id="5mY-YN-ahx"/>
+                    <navigationItem key="navigationItem" title="Alphabets" id="5mY-YN-ahx">
+                        <barButtonItem key="leftBarButtonItem" title="back" id="BLc-g8-SrZ">
+                            <connections>
+                                <action selector="backButtonTapped:" destination="K5T-8p-juz" id="QXi-UC-JlP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tCK-yY-9Bd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
