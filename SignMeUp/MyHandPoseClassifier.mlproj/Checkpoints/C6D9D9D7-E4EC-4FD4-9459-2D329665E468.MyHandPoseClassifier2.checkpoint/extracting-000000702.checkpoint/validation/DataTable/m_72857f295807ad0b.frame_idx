@@ -1,0 +1,15 @@
+[sframe]
+version=0
+num_segments=18446744073709551615
+num_columns=4
+nrows=34
+[column_names]
+0000=imagePath
+0001=keypoints
+0002=session_id
+0003=label
+[column_files]
+0000=m_72857f295807ad0b.sidx:0
+0001=m_72857f295807ad0b.sidx:1
+0002=m_72857f295807ad0b.sidx:2
+0003=m_72857f295807ad0b.sidx:3
