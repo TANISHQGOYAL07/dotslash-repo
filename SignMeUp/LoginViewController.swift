@@ -28,9 +28,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func cancelButtonTapped(_ sender: UIButton) {
         
-//        self.dismiss(animated: true, completion: nil)
-        
-//        just for testing 
+        self.dismiss(animated: true, completion: nil)
+ 
         
         
     }
