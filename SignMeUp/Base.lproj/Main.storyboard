@@ -450,8 +450,14 @@
                     <view key="view" contentMode="scaleToFill" id="YTu-1v-AhT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp_Image_2024-11-24_at_07.54.06-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="kR2-YW-INZ">
+                                <rect key="frame" x="0.0" y="61" width="393" height="732"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ag1-jA-XHX"/>
-                        <color key="backgroundColor" red="1" green="0.98823529409999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="1" green="0.98823529480000005" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Leaderboard" image="trophy.fill" catalog="system" id="5Gn-oe-8jJ"/>
@@ -743,6 +749,7 @@
         <image name="U (1)" width="128" height="128"/>
         <image name="WhatsApp Image 2024-11-23 at 17.53.00" width="1031" height="938"/>
         <image name="WhatsApp Image 2024-11-23 at 19.52.06" width="425" height="617"/>
+        <image name="WhatsApp_Image_2024-11-24_at_07.54.06-removebg-preview" width="307" height="531"/>
         <image name="book.pages.fill" catalog="system" width="107" height="128"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="checkmark.circle.fill" catalog="system" width="128" height="123"/>
