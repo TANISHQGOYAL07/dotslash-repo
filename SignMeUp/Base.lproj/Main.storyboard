@@ -715,14 +715,36 @@
                     <view key="view" contentMode="scaleToFill" id="ddk-hp-9TV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2024-11-24 at 08.34.15" translatesAutoresizingMaskIntoConstraints="NO" id="ZYY-ae-h5h">
+                                <rect key="frame" x="-19" y="77" width="412" height="765"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-Wt-20P">
+                                <rect key="frame" x="0.0" y="54" width="240" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back to learn">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3C-ZJ-RBD">
+                                <rect key="frame" x="153" y="54" width="240" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Continue ">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="x0P-4B-xJd"/>
-                        <color key="backgroundColor" red="1" green="0.98823529409999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="fpy-G9-rZN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zYe-Kq-WYe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3755" y="-338"/>
+            <point key="canvasLocation" x="3754.9618320610684" y="-338.02816901408454"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="iGW-Vy-ur2">
@@ -788,6 +810,7 @@
         <image name="U (1)" width="128" height="128"/>
         <image name="WhatsApp Image 2024-11-23 at 17.53.00" width="1031" height="938"/>
         <image name="WhatsApp Image 2024-11-23 at 19.52.06" width="425" height="617"/>
+        <image name="WhatsApp Image 2024-11-24 at 08.34.15" width="302" height="501"/>
         <image name="WhatsApp_Image_2024-11-24_at_07.54.06-removebg-preview" width="307" height="531"/>
         <image name="book.pages.fill" catalog="system" width="107" height="128"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
