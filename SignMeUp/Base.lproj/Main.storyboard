@@ -199,10 +199,10 @@
             </objects>
             <point key="canvasLocation" x="3872.5190839694656" y="363.38028169014086"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Gesture Table View Controller-->
         <scene sceneID="Vad-iC-Lxx">
             <objects>
-                <tableViewController id="Zoh-eG-Bu3" sceneMemberID="viewController">
+                <tableViewController id="Zoh-eG-Bu3" customClass="gestureTableViewController" customModule="SignMeUp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="mbu-Sx-lz7">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
