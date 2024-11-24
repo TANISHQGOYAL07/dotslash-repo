@@ -180,6 +180,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2024-11-23 at 19.52.06" translatesAutoresizingMaskIntoConstraints="NO" id="f1L-y0-EYP">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z5z-XU-8Mf"/>
@@ -383,6 +384,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="See All your achievements here"/>
+                                <connections>
+                                    <segue destination="EwY-2T-MRY" kind="show" id="kLP-cM-Bl0"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2024-11-24 at 6.17.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="i2c-PW-mF9">
                                 <rect key="frame" x="-62" y="39" width="455" height="219"/>
@@ -422,6 +426,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gb9-bg-k6z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1693.8931297709923" y="780.98591549295782"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Kv-Me-VVQ">
+            <objects>
+                <viewController id="EwY-2T-MRY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WZo-Ef-2pv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NcF-Ax-pEh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xuF-1C-gHX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LGB-eZ-hJQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1690" y="1518"/>
         </scene>
         <!--Leaderboard-->
         <scene sceneID="rM1-qs-AJM">
