@@ -54,16 +54,39 @@ class gestureTableViewController: UITableViewController {
         return greetings.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "wordsIdentifier", for: indexPath)
 
         // Configure the cell...
+        
+        var content = cell.defaultContentConfiguration()
+        
+        let word = greetings[indexPath.row]
+        
+        // Configure the content with the Alphabet's name
+        content.text = word.name
+        
+        
+        // Optionally, you can set a secondary text if needed
+        
+        
+        content.textProperties.color = getRandomColor()
+        
+        // Apply the content configuration to the cell
+        cell.contentConfiguration = content
 
         return cell
+        
     }
-    */
-
+    
+    func getRandomColor() -> UIColor {
+        // Array of possible colors
+        let colors: [UIColor] = [.orange, .green, .blue , .purple , .systemCyan]
+        
+        // Return a random color from the array
+        return colors.randomElement() ?? .black
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
