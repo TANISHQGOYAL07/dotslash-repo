@@ -169,10 +169,10 @@
             </objects>
             <point key="canvasLocation" x="2935.1145038167938" y="354.92957746478874"/>
         </scene>
-        <!--View Controller-->
+        <!--Chart View Controller-->
         <scene sceneID="TyM-IU-xCq">
             <objects>
-                <viewController id="kWf-t8-iCp" sceneMemberID="viewController">
+                <viewController id="kWf-t8-iCp" customClass="chartViewController" customModule="SignMeUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ILQ-4O-TOv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,6 +189,15 @@
                                 <color key="textColor" red="0.91372549020000005" green="0.42352941179999998" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3u-I8-fhe">
+                                <rect key="frame" x="23" y="20" width="62" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <action selector="bckBtnTapped:" destination="kWf-t8-iCp" eventType="touchUpInside" id="Kcb-5C-pxE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z5z-XU-8Mf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -440,9 +449,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
-                                <connections>
-                                    <segue destination="8Bs-eb-1dj" kind="show" id="YOU-wF-Rpx"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUZ-fY-wof">
                                 <rect key="frame" x="262" y="268" width="90" height="72"/>
@@ -451,6 +457,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="❤️">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="44"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="8Bs-eb-1dj" kind="show" id="ExD-dT-QEl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CHW-33-H3F"/>
@@ -649,7 +658,7 @@
                                 <color key="textColor" red="0.91372549530000002" green="0.42352938649999999" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2024-11-23 at 7.58.37 PM" translatesAutoresizingMaskIntoConstraints="NO" id="dEQ-56-4u2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2024-11-23 at 7.58.37 PM" translatesAutoresizingMaskIntoConstraints="NO" id="dEQ-56-4u2">
                                 <rect key="frame" x="70" y="164" width="252" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -737,10 +746,10 @@
             </objects>
             <point key="canvasLocation" x="2935.1145038167938" y="-338.02816901408454"/>
         </scene>
-        <!--View Controller-->
+        <!--Unit Ui View Controller-->
         <scene sceneID="1bc-Kv-27b">
             <objects>
-                <viewController id="sLZ-Bh-oXL" sceneMemberID="viewController">
+                <viewController id="sLZ-Bh-oXL" customClass="unitUiViewController" customModule="SignMeUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ddk-hp-9TV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -756,6 +765,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Back to learn">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="bckButtonTapped:" destination="sLZ-Bh-oXL" eventType="touchUpInside" id="ZzX-Bl-TM6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3C-ZJ-RBD">
                                 <rect key="frame" x="153" y="54" width="240" height="42"/>
@@ -832,7 +844,7 @@
         <image name="Screenshot 2024-11-23 at 11.04.02 AM" width="738" height="848"/>
         <image name="Screenshot 2024-11-23 at 11.31.12 AM" width="716" height="462"/>
         <image name="Screenshot 2024-11-23 at 5.42.01 PM" width="584" height="244"/>
-        <image name="Screenshot 2024-11-23 at 7.58.37 PM" width="292" height="252"/>
+        <image name="Screenshot 2024-11-23 at 7.58.37 PM" width="292" height="252"/>
         <image name="Screenshot 2024-11-24 at 4.40.33 AM" width="644" height="544"/>
         <image name="Screenshot 2024-11-24 at 4.49.38 AM" width="638" height="486"/>
         <image name="Screenshot 2024-11-24 at 6.17.05 AM" width="1522" height="988"/>
